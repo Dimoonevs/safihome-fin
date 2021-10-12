@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+        <header>
+            <div class="wrapper">
+                <div class="header">
+                    <div class="burger_menu">
+                        <div class=""></div>
+                        <div class=""></div>
+                        <div class=""></div>
+                    </div>
+                    <div class="header_number">
+                        <div class="img_numb">
+                            <img src="img/icon/whatsapp.svg" alt="">
+                        </div>
+                        <div class="number_text header_text">
+                            +7 (495) 000 00 00
+                        </div>
+                        <div class="butt_number" style="cursor: pointer;">
+                            <div class="butt"></div>
+                            <div class="butt"></div>
+                        </div>
+                        <div class="header_number-active">
+                            <div class="number_text header_text">
+                                +7 (495) 000 00 00
+                            </div>
+                            <div class="number_text header_text">
+                                +7 (495) 000 00 00
+                            </div>
+                        </div>
+                    </div>
+                    <a href="index.html" class="header_logo">
+                        <img src="img/logo/logo_2 3.png" alt="">
+                    </a>
+                    <div class="header_user">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 12C24 5.36774 18.633 0 12 0C5.36774 0 0 5.367 0 12C0 18.5735 5.32214 24 12 24C18.6504 24 24 18.6037 24 12ZM12 1.40625C17.8414 1.40625 22.5938 6.15857 22.5938 12C22.5938 14.1368 21.9582 16.1907 20.7795 17.9304C16.0466 12.8394 7.96198 12.8302 3.22046 17.9304C2.04181 16.1907 1.40625 14.1368 1.40625 12C1.40625 6.15857 6.15857 1.40625 12 1.40625ZM4.09753 19.0547C8.30566 14.3346 15.6954 14.3357 19.9023 19.0547C15.6801 23.7784 8.32159 23.7799 4.09753 19.0547Z" fill="#706F6F"/>
+                            <path d="M12 12.7031C14.3262 12.7031 16.2188 10.8105 16.2188 8.48438V7.07812C16.2188 4.75195 14.3262 2.85938 12 2.85938C9.67383 2.85938 7.78125 4.75195 7.78125 7.07812V8.48438C7.78125 10.8105 9.67383 12.7031 12 12.7031ZM9.1875 7.07812C9.1875 5.52722 10.4491 4.26562 12 4.26562C13.5509 4.26562 14.8125 5.52722 14.8125 7.07812V8.48438C14.8125 10.0353 13.5509 11.2969 12 11.2969C10.4491 11.2969 9.1875 10.0353 9.1875 8.48438V7.07812Z" fill="#706F6F"/>
+                            </svg>
+                            
+                        <div class="text_user header_text">
+                            Войти в кабинет
+                        </div>
+                    </div>
+                    <a href="" class="icon_header">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0)">
+                            <path d="M21.6702 2.93884C19.1155 0.763837 15.2952 1.12477 12.9233 3.57165L11.9998 4.5279L11.0764 3.57634C9.16391 1.59821 5.30609 0.407587 2.32953 2.93884C-0.61422 5.45134 -0.768907 9.96071 1.86547 12.6795L10.9358 22.0451C11.2264 22.3451 11.6108 22.4998 11.9952 22.4998C12.3795 22.4998 12.7639 22.3498 13.0545 22.0451L22.1248 12.6795C24.7686 9.96071 24.6139 5.45134 21.6702 2.93884ZM21.0561 11.6388L12.0186 21.0045L2.94359 11.6388C1.14359 9.78259 0.768593 6.24352 3.30453 4.08259C5.87328 1.88884 8.89203 3.4779 9.99828 4.62165L11.9998 6.68884L14.0014 4.62165C15.0889 3.49665 18.1358 1.9029 20.6952 4.08259C23.2264 6.23884 22.8561 9.7779 21.0561 11.6388Z" fill="#706F6F"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0">
+                            <rect width="24" height="24" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                            
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.6804 22.1377L16.2421 14.6994C17.4571 13.1535 18.1826 11.2056 18.1826 9.09134C18.1826 4.07833 14.1043 0 9.09127 0C4.07833 0 0 4.07833 0 9.09127C0 14.1042 4.07833 18.1825 9.09127 18.1825C11.2055 18.1825 13.1535 17.4571 14.6993 16.2421L22.1377 23.6804C22.3507 23.8935 22.6299 24 22.9091 24C23.1883 24 23.4675 23.8935 23.6804 23.6804C24.1065 23.2545 24.1065 22.5637 23.6804 22.1377ZM2.18182 9.09127C2.18182 5.28138 5.28138 2.18182 9.09127 2.18182C12.9012 2.18182 16.0008 5.28138 16.0008 9.09127C16.0008 12.9012 12.9012 16.0007 9.09127 16.0007C5.28138 16.0007 2.18182 12.9012 2.18182 9.09127Z" fill="#706F6F"/>
+                                </svg>
+                                
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22.125 15.6281V6.24375C22.125 5.90156 21.8484 5.625 21.5062 5.625H18.3328C17.9578 2.46094 15.2625 0 12 0C8.7375 0 6.04219 2.46094 5.66719 5.625H2.49375C2.15156 5.625 1.875 5.90156 1.875 6.24375V23.3812C1.875 23.7234 2.15156 24 2.49375 24H20.25H21.2484C21.7312 24 22.125 23.6062 22.125 23.1234V22.125V15.6281ZM12 1.875C14.2266 1.875 16.0781 3.50156 16.4391 5.625H7.56094C7.92188 3.50156 9.77344 1.875 12 1.875ZM20.25 22.125H3.75V7.5H5.625V10.4906C5.625 10.6922 5.71875 10.8797 5.87813 11.0016C6.65156 11.5875 7.5 11.0484 7.5 10.3125V7.5H16.5V10.4906C16.5 10.6922 16.5938 10.8797 16.7531 11.0016C17.5266 11.5875 18.375 11.0484 18.375 10.3125V7.5H20.25V22.125Z" fill="#706F6F"/>
+                            </svg>
+                                
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main style="overflow: hidden;">
+            <div class="wrapper">
+                <div class="banner_bloc ">
+                        <div class="banner owl-carousel owl-theme slide_one">
+                            <img src="img/slider/banner_1.png" alt="">
+                            <img src="img/slider/banner_1.png" alt="">
+                            <img src="img/slider/banner_1.png" alt="">
+                        </div>
+                        <button class="banner_nav banner_prev owl-prev">
+                            <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.7825 29.6006C17.315 29.0682 17.3151 28.2047 16.7824 27.6722L4.11034 15.0003L16.7825 2.32789C17.315 1.79544 17.3151 0.931985 16.7824 0.39944C16.2499 -0.133106 15.3865 -0.133106 14.854 0.39944L1.21761 14.0362C0.961885 14.2919 0.818248 14.6387 0.818248 15.0003C0.818248 15.362 0.961976 15.7089 1.2177 15.9645L14.8541 29.6005C15.3865 30.1332 16.25 30.1332 16.7825 29.6006Z" fill="#706F6F"/>
+                            </svg>
+                        </button>
+                        <button class="banner_nav banner_next  owl-next">
+                            <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.21748 0.399378C0.685023 0.931831 0.684932 1.79528 1.21757 2.32783L13.8897 14.9997L1.21748 27.6721C0.685024 28.2046 0.684933 29.068 1.21757 29.6006C1.75012 30.1331 2.61348 30.1331 3.14602 29.6006L16.7824 15.9638C17.0381 15.7081 17.1818 15.3613 17.1818 14.9997C17.1818 14.638 17.038 14.2911 16.7823 14.0355L3.14593 0.399469C2.61348 -0.133167 1.75002 -0.133169 1.21748 0.399378Z" fill="#706F6F"/>
+                            </svg>
+                        </button>
+                </div>
+            </div>
+                
+            </div>
+            <div class="wrapper">
+                <div class="benefits">
+                    <div class="benefits_card">
+                        <img src="img/b_card/delivery.svg" alt="" srcset="">
+                        <div class="text_style">
+                            <div class="benefits_title">Бесплатная доставка</div>
+                            <div class="benefits_text">На все заказы свыше 3 000 руб.</div>
+                        </div>
+                    </div>
+                    <div class="benefits_card">
+                        <img src="img/b_card/purchase.svg" alt="" srcset="">
+                        <div class="text_style">
+                            <div class="benefits_title">Гарантия возврата</div>
+                            <div class="benefits_text">Возврат в течение 14 дней после покупки</div>
+                        </div>
+                    </div>
+                    <div class="benefits_card">
+                        <img src="img/b_card/chat.svg" alt="" srcset="">
+                        <div class="text_style">
+                            <div class="benefits_title">Поддержка клиентов</div>
+                            <div class="benefits_text">Мы всегда готовы помочь с выбором</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="category">
+                    <div class="title category_text">
+                        ПОПУЛЯРНЫЕ КАТЕГОРИИ ТОВАРОВ
+                    </div>
+                    <div class="category_carts-one">
+                        <div class="category_cart category_cart-fs">
+                            <img src="img/category/first.png" alt="">
+                            <p>Предметы интерьера</p>
+                        </div>
+                        <div class="category_carts-two">
+                            <div class="category_carts-two--one">
+                                <div class="category_cart category_cart-sec">
+                                    <img src="img/category/sec.png" alt="">
+                                    <p>Мелкая бытовая техника</p>
+                                </div>
+                                <div class="category_cart category_cart-tr">
+                                    <img src="img/category/tree.png" alt="">
+                                    <p>ТЕКСТИЛЬ</p>
+                                </div>
+                                <div class="category_cart category_cart-fr">
+                                    <img src="img/category/four.png" alt="">
+                                    <p>Аксессуары для ванных</p>
+                                </div>
+                            </div>
+                            <div class="category_carts-two--two">
+                                <div class="category_cart category_cart-fiv">
+                                    <img src="img/category/five.png" alt="">
+                                    <p>Посуда и сервировка</p>
+                                </div>
+                                <div class="category_cart category_cart-six">
+                                    <img src="img/category/six.png" alt="">
+                                    <p>МЕБЕЛЬ</p>
+                                </div>
+                                <div class="category_cart category_cart-all">
+                                    <img src="img/category/all_category.png" alt="">
+                                    <p>ВСЕ КАТЕГОРИИ
+                                        ТОВАРОВ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                    <div class="brend_title title">
+                        ПОПУЛЯРНЫЕ БРЕНДЫ
+                    </div>
+                    <div class="brend_block ">
+                        <div class="brend owl-carousel owl-theme slide_two">
+                            <img src="img/brend/logo 1.png" alt="">
+                            <img src="img/brend/logo 2.png" alt="">
+                            <img src="img/brend/logo 3.png" alt="">
+                            <img src="img/brend/logo 4.png" alt="">
+                            <img src="img/brend/logo 5.png" alt="">
+                            <img src="img/brend/logo 6.png" alt="" class="img_six">
+                        </div>
+                        <button class="brend_nav brend_prev owl-prev">
+                            <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.7825 29.6006C17.315 29.0682 17.3151 28.2047 16.7824 27.6722L4.11034 15.0003L16.7825 2.32789C17.315 1.79544 17.3151 0.931985 16.7824 0.39944C16.2499 -0.133106 15.3865 -0.133106 14.854 0.39944L1.21761 14.0362C0.961885 14.2919 0.818248 14.6387 0.818248 15.0003C0.818248 15.362 0.961976 15.7089 1.2177 15.9645L14.8541 29.6005C15.3865 30.1332 16.25 30.1332 16.7825 29.6006Z" fill="#706F6F"/>
+                            </svg>
+                        </button>
+                        <button class="brend_nav brend_next  owl-next">
+                            <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.21748 0.399378C0.685023 0.931831 0.684932 1.79528 1.21757 2.32783L13.8897 14.9997L1.21748 27.6721C0.685024 28.2046 0.684933 29.068 1.21757 29.6006C1.75012 30.1331 2.61348 30.1331 3.14602 29.6006L16.7824 15.9638C17.0381 15.7081 17.1818 15.3613 17.1818 14.9997C17.1818 14.638 17.038 14.2911 16.7823 14.0355L3.14593 0.399469C2.61348 -0.133167 1.75002 -0.133169 1.21748 0.399378Z" fill="#706F6F"/>
+                            </svg>
+                        </button>
+                    </div>
+            </div>
+            <div class="wrapper">
+                <div class="products">
+                    <div class="products_title title">ПОПУЛЯРНЫЕ ТОВАРЫ</div>
+                    <div class="products_block">
+                        <div class="products_slider owl-carousel owl-theme slide_tree">
+                            <div class="product_card">
+                                <div class="card_imege">
+                                    <img src="img/products/card_one.png" alt="">
+                                    <div class="image_sale">SALE</div>
+                                    <div class="image_like"><svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.6702 1.93933C19.1155 -0.235675 15.2952 0.125263 12.9233 2.57214L11.9998 3.52839L11.0764 2.57683C9.16391 0.598701 5.30609 -0.591925 2.32953 1.93933C-0.61422 4.45183 -0.768907 8.9612 1.86547 11.68L10.9358 21.0456C11.2264 21.3456 11.6108 21.5003 11.9952 21.5003C12.3795 21.5003 12.7639 21.3503 13.0545 21.0456L22.1248 11.68C24.7686 8.9612 24.6139 4.45183 21.6702 1.93933ZM21.0561 10.6393L12.0186 20.005L2.94359 10.6393C1.14359 8.78308 0.768593 5.24401 3.30453 3.08308C5.87328 0.889326 8.89203 2.47839 9.99828 3.62214L11.9998 5.68933L14.0014 3.62214C15.0889 2.49714 18.1358 0.903388 20.6952 3.08308C23.2264 5.23933 22.8561 8.77839 21.0561 10.6393Z" fill="#706F6F"/>
+                                </svg></div>
+                                </div>
+                                <div class="card_bottom">
+                                    <div class="card_text">
+                                        <div class="text_name">Плед Veneto</div>
+                                        <div class="text_prices  text_price">
+                                            <div class="prices_price">1 598 ₽</div>
+                                            <div class="prices_salce">1 598 ₽</div>
+                                        </div>
+                                        <div class="text_availability">Товар в наличии</div>
+                                    </div>
+                                    <button> <img src="/img/products/cart.svg" alt=""> <p>КУПИТЬ</p></button>
+                                </div>
+                            </div>
+                            <div class="product_card">
+                                <div class="card_imege">
+                                    <img src="img/products/card_two.png" alt="">
+                                    <div class="image_like"><svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.6702 1.93933C19.1155 -0.235675 15.2952 0.125263 12.9233 2.57214L11.9998 3.52839L11.0764 2.57683C9.16391 0.598701 5.30609 -0.591925 2.32953 1.93933C-0.61422 4.45183 -0.768907 8.9612 1.86547 11.68L10.9358 21.0456C11.2264 21.3456 11.6108 21.5003 11.9952 21.5003C12.3795 21.5003 12.7639 21.3503 13.0545 21.0456L22.1248 11.68C24.7686 8.9612 24.6139 4.45183 21.6702 1.93933ZM21.0561 10.6393L12.0186 20.005L2.94359 10.6393C1.14359 8.78308 0.768593 5.24401 3.30453 3.08308C5.87328 0.889326 8.89203 2.47839 9.99828 3.62214L11.9998 5.68933L14.0014 3.62214C15.0889 2.49714 18.1358 0.903388 20.6952 3.08308C23.2264 5.23933 22.8561 8.77839 21.0561 10.6393Z" fill="#706F6F"/>
+                                </svg></div>
+                                </div>
+                                <div class="card_bottom">
+                                    <div class="card_text">
+                                        <div class="text_name">Постельное бельё Latery</div>
+                                        <div class="text_price">1 526 ₽</div>
+                                        <div class="text_availability">Товар в наличии</div>
+                                    </div>
+                                    <button> <img src="/img/products/cart.svg" alt=""> <p>КУПИТЬ</p></button>
+                                </div>
+                            </div>
+                            <div class="product_card">
+                                <div class="card_imege">
+                                    <img src="img/products/card_tree.png" alt="">
+                                    <div class="image_new">NEW</div>
+                                    <div class="image_like"><svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.6702 1.93933C19.1155 -0.235675 15.2952 0.125263 12.9233 2.57214L11.9998 3.52839L11.0764 2.57683C9.16391 0.598701 5.30609 -0.591925 2.32953 1.93933C-0.61422 4.45183 -0.768907 8.9612 1.86547 11.68L10.9358 21.0456C11.2264 21.3456 11.6108 21.5003 11.9952 21.5003C12.3795 21.5003 12.7639 21.3503 13.0545 21.0456L22.1248 11.68C24.7686 8.9612 24.6139 4.45183 21.6702 1.93933ZM21.0561 10.6393L12.0186 20.005L2.94359 10.6393C1.14359 8.78308 0.768593 5.24401 3.30453 3.08308C5.87328 0.889326 8.89203 2.47839 9.99828 3.62214L11.9998 5.68933L14.0014 3.62214C15.0889 2.49714 18.1358 0.903388 20.6952 3.08308C23.2264 5.23933 22.8561 8.77839 21.0561 10.6393Z" fill="#706F6F"/>
+                                </svg></div>
+                                </div>
+                                <div class="card_bottom">
+                                    <div class="card_text">
+                                        <div class="text_name">Ваза Ronzano</div>
+                                        <div class="text_price">858 ₽</div>
+                                        <div class="text_availability">Товар в наличии</div>
+                                    </div>
+                                    <button> <img src="/img/products/cart.svg" alt=""> <p>КУПИТЬ</p></button>
+                                </div>
+                            </div>
+                            <div class="product_card">
+                                <div class="card_imege">
+                                    <img src="img/products/card_for.png" alt="">
+                                    <div class="image_sale"></div>
+                                    <div class="image_like"><svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.6702 1.93933C19.1155 -0.235675 15.2952 0.125263 12.9233 2.57214L11.9998 3.52839L11.0764 2.57683C9.16391 0.598701 5.30609 -0.591925 2.32953 1.93933C-0.61422 4.45183 -0.768907 8.9612 1.86547 11.68L10.9358 21.0456C11.2264 21.3456 11.6108 21.5003 11.9952 21.5003C12.3795 21.5003 12.7639 21.3503 13.0545 21.0456L22.1248 11.68C24.7686 8.9612 24.6139 4.45183 21.6702 1.93933ZM21.0561 10.6393L12.0186 20.005L2.94359 10.6393C1.14359 8.78308 0.768593 5.24401 3.30453 3.08308C5.87328 0.889326 8.89203 2.47839 9.99828 3.62214L11.9998 5.68933L14.0014 3.62214C15.0889 2.49714 18.1358 0.903388 20.6952 3.08308C23.2264 5.23933 22.8561 8.77839 21.0561 10.6393Z" fill="#706F6F"/>
+                                </svg></div>
+                                </div>
+                                <div class="card_bottom">
+                                    <div class="card_text">
+                                        <div class="text_name">Набор для ванной  Adelfia</div>
+                                        <div class="text_price">926 ₽</div>
+                                        <div class="text_availability">Товар в наличии</div>
+                                    </div>
+                                    <button> <img src="/img/products/cart.svg" alt=""> <p>КУПИТЬ</p></button>
+                                </div>
+                            </div>
+                            <div class="product_card">
+                                <div class="card_imege">
+                                    <img src="img/products/card_tree.png" alt="">
+                                    <div class="image_new">NEW</div>
+                                    <div class="image_like"><svg width="24" height="22" viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21.6702 1.93933C19.1155 -0.235675 15.2952 0.125263 12.9233 2.57214L11.9998 3.52839L11.0764 2.57683C9.16391 0.598701 5.30609 -0.591925 2.32953 1.93933C-0.61422 4.45183 -0.768907 8.9612 1.86547 11.68L10.9358 21.0456C11.2264 21.3456 11.6108 21.5003 11.9952 21.5003C12.3795 21.5003 12.7639 21.3503 13.0545 21.0456L22.1248 11.68C24.7686 8.9612 24.6139 4.45183 21.6702 1.93933ZM21.0561 10.6393L12.0186 20.005L2.94359 10.6393C1.14359 8.78308 0.768593 5.24401 3.30453 3.08308C5.87328 0.889326 8.89203 2.47839 9.99828 3.62214L11.9998 5.68933L14.0014 3.62214C15.0889 2.49714 18.1358 0.903388 20.6952 3.08308C23.2264 5.23933 22.8561 8.77839 21.0561 10.6393Z" fill="#706F6F"/>
+                                </svg></div>
+                                </div>
+                                <div class="card_bottom">
+                                    <div class="card_text">
+                                        <div class="text_name">Ваза Ronzano</div>
+                                        <div class="text_price">858 ₽</div>
+                                        <div class="text_availability">Товар в наличии</div>
+                                    </div>
+                                    <button> <img src="/img/products/cart.svg" alt=""> <p>КУПИТЬ</p></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_prev owl-prev product_nav">
+                            <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.7825 29.6006C17.315 29.0682 17.3151 28.2047 16.7824 27.6722L4.11034 15.0003L16.7825 2.32789C17.315 1.79544 17.3151 0.931985 16.7824 0.39944C16.2499 -0.133106 15.3865 -0.133106 14.854 0.39944L1.21761 14.0362C0.961885 14.2919 0.818248 14.6387 0.818248 15.0003C0.818248 15.362 0.961976 15.7089 1.2177 15.9645L14.8541 29.6005C15.3865 30.1332 16.25 30.1332 16.7825 29.6006Z" fill="#706F6F"/>
+                            </svg>
+                        </div>
+                        <div class="product_next owl-next product_nav">
+                            <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.21748 0.399378C0.685023 0.931831 0.684932 1.79528 1.21757 2.32783L13.8897 14.9997L1.21748 27.6721C0.685024 28.2046 0.684933 29.068 1.21757 29.6006C1.75012 30.1331 2.61348 30.1331 3.14602 29.6006L16.7824 15.9638C17.0381 15.7081 17.1818 15.3613 17.1818 14.9997C17.1818 14.638 17.038 14.2911 16.7823 14.0355L3.14593 0.399469C2.61348 -0.133167 1.75002 -0.133169 1.21748 0.399378Z" fill="#706F6F"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="reviews">
+                    <div class="reviews_image">
+                        <img src="img/reviews/pakets.png" alt="">
+                    </div>
+                    <!-- owl-carousel owl-theme slide_four -->
+                    <div class="reviews_slider owl-carousel owl-theme slide_four">
+                        <div class="reviews_text ">
+                            <svg width="59" height="48" viewBox="0 0 59 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.1484 0.144531L27.5 7.17578C21.4453 15.444 18.3203 24.3633 18.125 33.9336V47.2148H0.15625V35.8867C0.15625 29.2461 1.71875 22.6706 4.84375 16.1602C8.03385 9.64974 12.1354 4.3112 17.1484 0.144531ZM47.9102 0.144531L58.2617 7.17578C52.207 15.444 49.082 24.3633 48.8867 33.9336V47.2148H30.918V35.8867C30.918 29.2461 32.4805 22.6706 35.6055 16.1602C38.7956 9.64974 42.8971 4.3112 47.9102 0.144531Z" fill="#EC8899"/>
+                            </svg>
+                                
+                            <div class="text_review ">
+                                <p>
+                                    Моя слабость - это хорошие махровые полотенца и красивое постельное белье. Вот почему-то эти вещи всегда хочется видеть практичными, симпатичными и качественными. 
+                                    На safihome.ru широкий ассортимент и доступные цены.
+                                </p>
+                                <div class="name">
+                                    Анна, г. Москва
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews_text ">
+                            <svg width="59" height="48" viewBox="0 0 59 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.1484 0.144531L27.5 7.17578C21.4453 15.444 18.3203 24.3633 18.125 33.9336V47.2148H0.15625V35.8867C0.15625 29.2461 1.71875 22.6706 4.84375 16.1602C8.03385 9.64974 12.1354 4.3112 17.1484 0.144531ZM47.9102 0.144531L58.2617 7.17578C52.207 15.444 49.082 24.3633 48.8867 33.9336V47.2148H30.918V35.8867C30.918 29.2461 32.4805 22.6706 35.6055 16.1602C38.7956 9.64974 42.8971 4.3112 47.9102 0.144531Z" fill="#EC8899"/>
+                            </svg>
+                                
+                            <div class="text_review ">
+                                <p>
+                                    Моя слабость - это хорошие махровые полотенца и красивое постельное белье. Вот почему-то эти вещи всегда хочется видеть практичными, симпатичными и качественными. 
+                                    На safihome.ru широкий ассортимент и доступные цены.
+                                </p>
+                                <div class="name">
+                                    Анна, г. Москва
+                                </div>
+                            </div>
+                        </div>
+                        <div class="reviews_text ">
+                            <svg width="59" height="48" viewBox="0 0 59 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17.1484 0.144531L27.5 7.17578C21.4453 15.444 18.3203 24.3633 18.125 33.9336V47.2148H0.15625V35.8867C0.15625 29.2461 1.71875 22.6706 4.84375 16.1602C8.03385 9.64974 12.1354 4.3112 17.1484 0.144531ZM47.9102 0.144531L58.2617 7.17578C52.207 15.444 49.082 24.3633 48.8867 33.9336V47.2148H30.918V35.8867C30.918 29.2461 32.4805 22.6706 35.6055 16.1602C38.7956 9.64974 42.8971 4.3112 47.9102 0.144531Z" fill="#EC8899"/>
+                            </svg>
+                                
+                            <div class="text_review ">
+                                <p>
+                                    Моя слабость - это хорошие махровые полотенца и красивое постельное белье. Вот почему-то эти вещи всегда хочется видеть практичными, симпатичными и качественными. 
+                                    На safihome.ru широкий ассортимент и доступные цены.
+                                </p>
+                                <div class="name">
+                                    Анна, г. Москва
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="reviews_text ">
+                        <svg width="59" height="48" viewBox="0 0 59 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.1484 0.144531L27.5 7.17578C21.4453 15.444 18.3203 24.3633 18.125 33.9336V47.2148H0.15625V35.8867C0.15625 29.2461 1.71875 22.6706 4.84375 16.1602C8.03385 9.64974 12.1354 4.3112 17.1484 0.144531ZM47.9102 0.144531L58.2617 7.17578C52.207 15.444 49.082 24.3633 48.8867 33.9336V47.2148H30.918V35.8867C30.918 29.2461 32.4805 22.6706 35.6055 16.1602C38.7956 9.64974 42.8971 4.3112 47.9102 0.144531Z" fill="#EC8899"/>
+                        </svg>
+                            
+                        <div class="text_review ">
+                            <p>
+                                Моя слабость - это хорошие махровые полотенца и красивое постельное белье. Вот почему-то эти вещи всегда хочется видеть практичными, симпатичными и качественными. 
+                                На safihome.ru широкий ассортимент и доступные цены.
+                            </p>
+                            <div class="name">
+                                Анна, г. Москва
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="seo">
+                    <div class="seo_title title">SAFI HOME - ИНТЕРНЕМ-МАГАЗИН ТЕКСТИЛЯ И ДЕКОРА ДЛЯ ДОМА</div>
+                    <div class="seo_text">
+                        <p>Основная идея бренда – создавать вещи, которые помогут без труда воплотить любую мечту по украшению дома в реальность и создать по-настоящему неповторимую и уютную атмосферу.</p>
+
+                        <p>В составе текстиля используются преимущественно натуральные материалы, а постельное белье выполнено исключительно из 100% хлопка. Также изделия имеют изысканный дизайн, который учитывает последние мировые тренды и создается совместно с лучшими дизайн - студиями в Европе. Дизайны коллекций являются полностью эксклюзивными и не имеют аналогов на российском рынке. Совокупность всех этих компонентов позволяет утверждать, что продукция – идеальный подарок для себя и своих близких.</p>
+                        
+                        <p>Помимо текстиля (комплекты и отдельные предметы постельного белья, теплые пледы и покрывала, мягкие махровые полотенца) в ассортименте бренда также представлены элементы декора для спальни, кухни и ванной, которые подарят атмосферу уюта вашему дому. А для того, чтобы вам было легче сочетать изделия друг с другом, мы специально строим коллекцию по принципу капсул. Что это такое? Предметы из разных категорий объединены единым стилем и палитрой. Таким образом, составить наиболее подходящий для себя интерьер не составит труда.</p> 
+                        
+                        <p>Ассортимент компании постоянно расширяется. Покупатели успели полюбить наши новые невероятные ароматы для дома, косметику из натуральных компонентов, комфортные носочки и пижамы, вкусные чай и шоколад.</p> 
+                    </div>
+
+                </div>
+            </div>
+            <div class="wrepper_self">
+                <div class="instagram">
+                    <div class="wrapper">
+                        <div class="instagram_link title">
+                            <a href="">@SAFI_HOME</a>
+                        </div>
+                    </div>
+                    <div class="instagram_images">
+                        <div class="instagram_image">
+                            <a data-fancybox="gallery" href="img/instagram/home-design-99-3 1.png"><img src="img/instagram/home-design-99-3 1.png" alt=""></a>
+                            <div class="image_hover">
+                                <img src="img/instagram/plus.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="instagram_image">
+                            <a data-fancybox="gallery" href="img/instagram/adelfia_667143_03 2.png"><img src="img/instagram/adelfia_667143_03 2.png" alt=""></a>
+                            <div class="image_hover">
+                                <img src="img/instagram/plus.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="instagram_image">
+                            <a data-fancybox="gallery" href="img/instagram/High-Quantity-Borosilicate 3.png"><img src="img/instagram/High-Quantity-Borosilicate 3.png" alt=""></a>
+                            <div class="image_hover">
+                                <img src="img/instagram/plus.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="instagram_image">
+                            <a data-fancybox="gallery" href="img/instagram/ваза-2 4.png"><img src="img/instagram/ваза-2 4.png" alt=""></a>
+                            <div class="image_hover">
+                                <img src="img/instagram/plus.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="instagram_image">
+                            <a data-fancybox="gallery" href="img/instagram/76feb5dc5f31ad96fcdd47c2c4sk-- 5.png"><img src="img/instagram/76feb5dc5f31ad96fcdd47c2c4sk-- 5.png" alt=""></a>
+                            <div class="image_hover">
+                                <img src="img/instagram/plus.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="wrapper">
+                <div class="foot">
+                    <div class="foot_top">
+                        <div class="foot_title">
+                            <p>Подпишись и будь первым</p>
+                            <p>Новинки, акции и распродажи, скидки и интересные новости</p>
+                        </div>
+                        <div class="foot_inp">
+                            <input type="text" value="" placeholder="Введите Ваш e-mail...">
+                            <button>ПОДПИСАТЬСЯ</button>
+                        </div>
+                    </div>
+                    <div class="foot_bottom">
+                        <div class="foot_text">
+                            <a href="">КАТАЛОГ ТОВАРОВ</a>
+                            <a href="">О НАС</a>
+                            <a href="">ДОСТАВКА</a>
+                            <a href="">ОПЛАТА</a>
+                        </div>
+                        <div class="foot_icon">
+                            <a href="">
+                                <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.9363 6.771C14.6453 6.4035 14.7285 6.24 14.9363 5.9115C14.94 5.90775 17.3422 2.58825 17.5897 1.4625L17.5912 1.46175C17.7143 1.0515 17.5913 0.75 16.9965 0.75H15.0285C14.5275 0.75 14.2965 1.00875 14.1727 1.29825C14.1727 1.29825 13.1707 3.69675 11.7533 5.2515C11.2957 5.70075 11.0843 5.84475 10.8345 5.84475C10.7115 5.84475 10.5203 5.70075 10.5203 5.2905V1.46175C10.5203 0.96975 10.38 0.75 9.96525 0.75H6.87075C6.5565 0.75 6.36975 0.9795 6.36975 1.19325C6.36975 1.65975 7.0785 1.767 7.152 3.0795V5.92725C7.152 6.55125 7.03875 6.666 6.7875 6.666C6.1185 6.666 4.49475 4.25775 3.5325 1.5015C3.33825 0.96675 3.1485 0.75075 2.64375 0.75075H0.675C0.11325 0.75075 0 1.0095 0 1.299C0 1.8105 0.669 4.35375 3.111 7.71375C4.7385 10.0072 7.0305 11.25 9.1155 11.25C10.3688 11.25 10.5218 10.974 10.5218 10.4992C10.5218 8.30775 10.4085 8.10075 11.0363 8.10075C11.3273 8.10075 11.8282 8.24475 12.9982 9.351C14.3355 10.6627 14.5553 11.25 15.3038 11.25H17.2717C17.8328 11.25 18.117 10.974 17.9535 10.4295C17.5793 9.28425 15.0503 6.9285 14.9363 6.771Z" fill="white"/>
+                                    </svg>
+                            </a>                        
+                            <a href="">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0)">
+                                    <path d="M9.00302 4.37842C6.45077 4.37842 4.38452 6.44692 4.38452 8.99692C4.38452 11.5492 6.45302 13.6154 9.00302 13.6154C11.5553 13.6154 13.6215 11.5469 13.6215 8.99692C13.6215 6.44467 11.553 4.37842 9.00302 4.37842ZM9.00302 11.9947C7.34627 11.9947 6.00527 10.6529 6.00527 8.99692C6.00527 7.34092 7.34702 5.99917 9.00302 5.99917C10.659 5.99917 12.0008 7.34092 12.0008 8.99692C12.0015 10.6529 10.6598 11.9947 9.00302 11.9947Z" fill="white"/>
+                                    <path d="M12.7109 0.0570283C11.0549 -0.0202217 6.95318 -0.0164717 5.29568 0.0570283C3.83918 0.125278 2.55443 0.477028 1.51868 1.51278C-0.212324 3.24378 0.00892631 5.57628 0.00892631 8.99703C0.00892631 12.498 -0.186074 14.7765 1.51868 16.4813C3.25643 18.2183 5.62268 17.991 9.00293 17.991C12.4709 17.991 13.6679 17.9933 14.8942 17.5185C16.5614 16.8713 17.8199 15.381 17.9429 12.7043C18.0209 11.0475 18.0164 6.94653 17.9429 5.28903C17.7944 2.12928 16.0987 0.213028 12.7109 0.0570283ZM15.3322 15.336C14.1974 16.4708 12.6232 16.3695 8.98118 16.3695C5.23118 16.3695 3.72743 16.425 2.63018 15.3248C1.36643 14.067 1.59518 12.0473 1.59518 8.98503C1.59518 4.84128 1.16993 1.85703 5.32868 1.64403C6.28418 1.61028 6.56543 1.59903 8.97068 1.59903L9.00443 1.62153C13.0012 1.62153 16.1369 1.20303 16.3252 5.36103C16.3679 6.30978 16.3777 6.59478 16.3777 8.99628C16.3769 12.7028 16.4474 14.2155 15.3322 15.336Z" fill="white"/>
+                                    <path d="M13.8046 5.27519C14.4006 5.27519 14.8838 4.792 14.8838 4.19595C14.8838 3.59989 14.4006 3.1167 13.8046 3.1167C13.2085 3.1167 12.7253 3.59989 12.7253 4.19595C12.7253 4.792 13.2085 5.27519 13.8046 5.27519Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0">
+                                    <rect width="18" height="18" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>
+                            </a>
+                            <a href="">
+                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0)">
+                                    <path d="M11.9979 2.98875H13.6411V0.12675C13.3576 0.08775 12.3826 0 11.2471 0C8.87788 0 7.25488 1.49025 7.25488 4.22925V6.75H4.64038V9.9495H7.25488V18H10.4604V9.95025H12.9691L13.3674 6.75075H10.4596V4.5465C10.4604 3.62175 10.7094 2.98875 11.9979 2.98875Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0">
+                                    <rect width="18" height="18" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>
+                            </a>                        
+                        </div>
+                        <div class="foot_polit">
+                            <a href="">Политика конфиденциальности</a>
+                            <a href="">Пользовательское соглашение</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- <div class="modal_heaer">
+            <div class="catalog_modal">
+                <div class="title_modal">КАТАЛОГ ТОВАРОВ</div>
+                <ul>
+                    <li><a href="">ПРЕДМЕТЫ ИНТЕРЬЕРА</a></li>
+                    <li><a href="">МАЛАЯ БЫТОВАЯ ТЕХНИКА</a></li>
+                    <li><a href="">ПОСУДА И СЕРВИРОВКА</a></li>
+                    <li><a href="">ТЕКСТИЛЬ</a></li>
+                    <li><a href="">МЕБЕЛЬ</a></li>
+                    <li><a href="">АКСЕССУАРЫ ДЛЯ ВАННОЙ</a></li>
+                    <li><a href="">Товары для дачи и отдыха</a></li>
+                    <li><a href="">НОВИНКИ</a></li>
+                    <li><a href="">РАСПРОДАЖА</a></li>
+                </ul>
+                <a href="" class="modal_icon">
+                    <img src="img/icon/Vector.svg" alt="">
+                    <img src="img/icon/инстаграм.svg" alt="">
+                    <img src="img/icon/фейсбук.svg" alt="">
+                </a>
+            </div>
+            <div class="about_modal">
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    
+                </ul>
+            </div>
+            <div class="numb_modal"></div>
+            <div class="close_modal">
+                <div class=""></div>
+                <div class=""></div>
+            </div>
+
+        </div> -->
+    <script src="skript/jquery-3.6.0.min.js"></script>
+    <script src="skript/sckript.js"></script>
+    <script src="skript/owl.carousel.min.js"></script>
+    <script src="skript/jquery.fancybox.min.js"></script>
+</body>
+</html>
